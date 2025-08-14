@@ -15,7 +15,7 @@ function App() {
       <div className="min-h-screen bg-white text-green-800">
         <Routes>
           <Route path="/" element={<Home />} />
-           <Route path="/monitoring" element={<Monitoring />} /> 
+          {/*<Route path="/monitoring" element={<Monitoring />} /> */}
           <Route path="/monitoring/irigasitetes" element={<IrigasiTetes />} />
           <Route path="/monitoring/hidroponik" element={<Hidroponik />} />
           <Route path="/berandairigasi" element={<BerandaIrigasi />} />
