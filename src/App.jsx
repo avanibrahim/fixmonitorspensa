@@ -16,8 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/monitoring" element={<Monitoring />} /> */}
-          <Route path="/monitoring/irigasitetes" element={<IrigasiTetes />} />
-          <Route path="/monitoring/hidroponik" element={<Hidroponik />} />
+          <Route path="/irigasitetes" element={<IrigasiTetes />} />
+          <Route path="/hidroponik" element={<Hidroponik />} />
           <Route path="/berandairigasi" element={<BerandaIrigasi />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
