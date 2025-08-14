@@ -116,7 +116,7 @@ const BerandaIrigasi = () => {
                 Pantau suhu dan kelembaban tanaman cabai secara real-time melalui IoT ESP32 dan sensor DHT22.
               </p>
 
-              <Link to="/monitoring/irigasi-tetes">
+              <Link to="/irigasitetes">
                 <Button size="lg" className="bg-red-600 text-white hover:bg-red-700 px-8 py-4 text-lg font-semibold">
                   Masuk Dashboard
                   <ArrowRight className="ml-2 h-5 w-5" />

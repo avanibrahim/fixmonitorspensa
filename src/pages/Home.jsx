@@ -119,7 +119,7 @@ const Home = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link to="/Monitoring/Hidroponik">
+                <Link to="/hidroponik">
                   <Button size="lg" className="gradient-bg text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 group">
                     Mulai Monitoring
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
