@@ -13,7 +13,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const isRedTheme =
-    location.pathname === '/irigasitetes' ||
+    location.pathname === '/monitoring/irigasitetes' ||
     location.pathname === '/berandairigasi';
 
   const navItems = [
@@ -22,7 +22,7 @@ const Navbar = () => {
       label: 'Monitoring',
       icon: Activity,
       children: [
-        { path: '/irigasitetes', label: 'Irigasi Tetes' },
+        { path: '/monitoring/irigasitetes', label: 'Irigasi Tetes' },
         { path: '/hidroponik', label: 'Hidroponik' },
       ],
     },
