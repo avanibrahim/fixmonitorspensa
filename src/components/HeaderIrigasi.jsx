@@ -28,6 +28,7 @@ const Navbar = () => {
     },
     { path: '/contact', label: 'Kontak', icon: Phone },
   ];
+  
 
   const isActive = (path) => location.pathname === path;
 

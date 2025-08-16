@@ -18,8 +18,8 @@ function App() {
           {/*<Route path="/monitoring" element={<Monitoring />} /> */}
           <Route path="/monitoring/irigasitetes" element={<IrigasiTetes />} />
           <Route path="/monitoring/hidroponik" element={<Hidroponik />} />
-          <Route path="/berandairigasi" element={<BerandaIrigasi />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/berandairigasi" element={<BerandaIrigasi />} /> 
+          <Route path="/contact" element={<Contact />} /> 
         </Routes>
         <Toaster />
       </div>

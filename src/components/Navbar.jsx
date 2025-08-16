@@ -13,13 +13,13 @@ const Navbar = () => {
   const location = useLocation();
 
   const isRedTheme =
-    location.pathname === '/monitoring/irigasitetes' ||
+    location.pathname === '/monitoring' ||
     location.pathname === '/berandairigasi';
 
   const navItems = [
     { path: '/', label: 'Beranda', icon: Home },
     {
-      label: 'Monitoring',
+      label: 'monitoring',
       icon: Activity,
       children: [
         { path: '/monitoring/irigasitetes', label: 'Irigasi Tetes' },
